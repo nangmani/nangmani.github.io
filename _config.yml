@@ -24,7 +24,7 @@ sass:
 url: # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
 title: 낭만
-description: "유지율 99%의 명품 보험 설계사"
+description: "안녕!! 나는 보험설계사 낭만이야 >_ <"
 keywords: 'jekyll,theme,gem-based,blog'
 author:
   name:
@@ -49,7 +49,7 @@ author:
 home:
   section1: <h1>낭만</h1>
   section2: <h2>"안녕!! 나는 보험설계사 낭만이야 >_ <"</h2>
-  section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/yizeng/jekyll-theme-simple-texture" title="View on GitHub"></a></div>
+  section3: <div class="social-links"><a class="ico-blog btn" href="https://blog.naver.com/koneca" "낭만이 블로그 바로가기"></a></div>
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
