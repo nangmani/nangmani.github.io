@@ -1,33 +1,32 @@
----
-layout: page
-title: About
-permalink: /about/
----
+=============================
+Sleek Blog
+=============================
 
-## Theme Monos
-> Simple and lightweight theme for Jekyll
+[Live Website](http://gearoidoconnor.ie)
 
-### Features
-- Responsive.
-- Syntax Highlight
-- Most optimized theme for tech blog.
-- Lightweight with minimum stylesheet.
-- Easy to customize.
-- Offers category menu.
 
-### _config.yml
-> Code block will look like this.
-```yml
-highlighter-theme: monokai //you can change your syntax color scheme.
-date_format: "%Y-%M-%D" //and date format.
+A blog project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
+
+
+## System Preparation
+
+To use this project, you'll need the following things installed on your machine.
+
+1. [Jekyll](http://jekyllrb.com/) - `$ gem install jekyll`
+2. [NodeJS](http://nodejs.org) - use the installer.
+3. [GulpJS](https://github.com/gulpjs/gulp) - `$ npm install -g gulp` (mac users may need sudo)
+
+## Local Installation
+
+1. Clone this repo, or download it into a directory of your choice.
+2. Inside the directory, run `npm install`.
+
+## Usage
+
+**development mode**
+
+This will give you file watching, browser synchronisation, auto-rebuild, CSS injecting etc etc.
+
+```shell
+$ gulp watch
 ```
-
-### Screenshots
-#### Page
-![alt text](/public/img/screenshot-1.png)
-#### Articles
-![alt text](/public/img/screenshot-2.png)
-#### Page - Mobile
-![alt text](/public/img/screenshot-m1.png)
-#### Page - Articles
-![alt text](/public/img/screenshot-m2.png)
